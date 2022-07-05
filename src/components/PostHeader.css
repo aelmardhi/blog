@@ -1,0 +1,23 @@
+.postHeader{
+    background-color: var(--clr-accent);
+    padding: .2em 1em;
+    align-items: center;
+}
+.titlePanel{
+    
+}
+.profileImg{
+    display: block;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    margin-right: 2em ;
+}
+.titlePanel h3{
+    align-items: flex-start;
+    color: var(--clr-accent3);
+}
+.titlePanel h4{
+    margin-right: .5em;
+    color: var(--clr-accent4);
+}

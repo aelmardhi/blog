@@ -1,0 +1,32 @@
+.home {
+    margin: 2em 0;
+    align-items: stretch;
+}
+.postHome{
+    margin: 1em .3em;
+    box-shadow: var(--bs-article);
+    padding: .5em;
+    background-color: var(--clr-primary);
+    border-radius: .5em;
+}
+.postHome a{
+    color: var(--clr-dark);
+    width: 100%;
+}
+
+.postHome p{
+    margin-top: 1em;
+    margin-left: 7em;
+}
+.postHome .img{
+    margin-top: 1em;
+    margin-left: 7em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+.postHome.private{
+    border: 2px solid var(--clr-accent4);
+}

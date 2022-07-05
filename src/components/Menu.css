@@ -1,0 +1,25 @@
+header{
+    justify-content: space-between;
+    padding: 1em calc( (100% - 800px) / 2);
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    box-shadow: var(--bs-article);
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, var(--clr-accent4), var(--clr-accent1) 80%, var(--clr-accent4));
+}
+header h2{
+    color: var(--clr-light);
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    margin-left: 1em;
+}
+nav ul li a{
+    color: var(--clr-light);
+    font-size: 1.25em;
+    font-weight: 600;
+}

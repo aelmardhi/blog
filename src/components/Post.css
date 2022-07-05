@@ -1,0 +1,20 @@
+.post{
+    padding: 2em 0em;
+}
+.postContent{
+    padding: 2em 1.2em;
+}
+.postContent h1,.postContent h2,.postContent h3,
+.postContent h4,.postContent h5{
+    margin: .5em 0em;
+}
+.postContent ul, .postContent ol{
+    margin-left: 2em;
+}
+.code{
+    margin: 1em 0.5em;
+    background: var(--clr-primary);
+    padding: 1em;
+    border-radius: 0.4em;
+}
+
