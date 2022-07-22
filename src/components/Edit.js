@@ -35,6 +35,7 @@ class Edit extends React.Component{
         fetch('/api/blog/post/'+this.id,{
             method: 'GET',
             headers: {
+              'auth-token': this.user?.['auth-token'],
               'Accept': 'application/json',
               'Content-Type': 'application/json'
             },

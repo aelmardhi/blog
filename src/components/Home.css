@@ -8,6 +8,7 @@
     padding: .5em;
     background-color: var(--clr-primary);
     border-radius: .5em;
+	background: linear-gradient(139deg, var(--clr-body), var(--clr-primary) 40%);
 }
 .postHome a{
     color: var(--clr-dark);

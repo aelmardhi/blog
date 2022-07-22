@@ -106,10 +106,10 @@ h5{
   color: var(--clr-danger);
 }
 .actionBtn{
-  background-color: var(--clr-accent1);
   color: var(--clr-light);
   padding: .5em 1.5em;
   font-weight: 900;
+  background: linear-gradient(139deg, var(--clr-accent2), var(--clr-accent1) );
 }
 
 @media(max-width:600px){
