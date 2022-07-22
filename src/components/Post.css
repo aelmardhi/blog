@@ -6,15 +6,53 @@
 }
 .postContent h1,.postContent h2,.postContent h3,
 .postContent h4,.postContent h5{
-    margin: .5em 0em;
+    margin: 1em 0em .5em 0em;
 }
 .postContent ul, .postContent ol{
     margin-left: 2em;
 }
 .code{
-    margin: 1em 0.5em;
+    margin: .8em 0 0.25em 0;
     background: var(--clr-primary);
     padding: 1em;
     border-radius: 0.4em;
 }
+.postContent >p{
+    margin: 0.5em .25em;
+    word-spacing: 1px;
+    line-height: 1.2em;
+}
+.postContent .img{
+    margin: .5em 0;
+}
+.postContent .img img{
+    max-width: 100%;
+}
+.postContent .img p{
+    text-align: center;
+    margin: 0.2em;
+}
+.postContent table{
+    margin: 1em 0.5em 0.5em;
+    box-shadow: var(--bs-downloads-hover);
+}
+.postContent table th{
 
+    text-align: start;
+    background: var(--clr-accent1);
+    color: var(--clr-light);
+    padding: 1em 1.2em;
+    font-size: 1.2em;
+    margin: 0;
+
+}
+.postContent table tr {
+    background: var(--clr-primary);
+}
+.postContent table tr:nth-child(even) {
+    background: var(--clr-accent4);
+    color: var(--clr-light);
+}
+.postContent table td {
+    padding: 0.6em 0.5em;
+}
