@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import {Link, useParams}  from "react-router-dom"
-import hljs from 'highlight.js/lib/common';
+import hljs from 'highlight.js';
 import PostHeader from './PostHeader';
 import Loader from './Loader';
 
